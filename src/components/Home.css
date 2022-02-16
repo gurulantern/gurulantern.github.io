@@ -1,0 +1,12 @@
+body {
+    color: white;
+    background: linear-gradient(#e9eff0 8%, #b8dfd8, #6accba, #47B8A5 50%) fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.welcome-title {
+    font-size: large;
+    color: #9C5F00;
+}
+
