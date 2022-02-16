@@ -1,12 +1,35 @@
-body {
-    color: white;
-    background: linear-gradient(#e9eff0 8%, #b8dfd8, #6accba, #47B8A5 50%) fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
+.gif {
+    border-radius: 10px;
+    width: 200px;
 }
 
 .welcome-title {
     font-size: large;
     color: #9C5F00;
 }
+
+.navigation {
+    background-color: #00b796;
+}
+
+li.nav__items {
+    color: #ecf791;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.home_content {
+    padding: 125px;
+    display: grid;
+}
+
+.welcome {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 3px;
+    color: #ecf791;
+    background-color: #446a87;
+}
+
 
