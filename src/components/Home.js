@@ -2,9 +2,24 @@ import React from 'react';
 import './Home.css';
 import emblem from './img/Water emblem.png';
 import house from './img/house.png';
+import goat from './img/goat.png';
+import controller from './img/controller.png';
+import plant from './img/plant.png';
+import { init } from "ityped";
+import { useEffect, useRef } from "react";
 
 
 function Home() {
+    
+    const textRef = useRef();
+
+    useEffect(()=>{
+        init(textRef.current, {
+            showCursor: false,
+            backDelay: 1500,
+            strings: ['Storyteller', 'Developer', 'Designer', 'Educator', 'Gamemaker']
+        })
+    },[]);
   return (
     <div className="home">
         <div className="home_bg">
@@ -28,16 +43,17 @@ function Home() {
                     </h1>
                     <img src={house} className='home' alt="" />
                     <h2 className="intro">
-                        Hello there! I'm Alex Ho
+                        Hello there! I'm Alex Ho,
                     </h2>
-                    <ul className="specialties">
-                        <li>Storyteller</li>
-                        <li>Developer</li>
-                        <li>Educator</li>
-                        <li>Gamemaker</li>
-                    </ul>
+                    <h3 className="specialties">
+                        <span className="specialty-text" ref={textRef}></span>
+                    </h3>                      
+                    <img src={goat} className='goat' alt="" />
+                    <img src={controller} className='controller' alt="" />
+                    <img src={plant} className='plant' alt="" />
                     <h2 className="location">
                         based in the US.
+                        ready to collaborate.
                     </h2>
                 </div>
             </div>
