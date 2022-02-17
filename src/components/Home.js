@@ -47,7 +47,6 @@ function Home() {
                 </div>
                 <h2 className="location">
                     based in the US.
-                    <span className='collab'>ready to collaborate.</span>
                 </h2>
             </div>
         </div>
