@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css';
-import emblem from './img/Water emblem.png';
-import house from './img/house.png';
+import home from './img/home.png';
 import goat from './img/goat.png';
 import controller from './img/controller.png';
 import plant from './img/plant.png';
@@ -20,42 +19,36 @@ function Home() {
             strings: ['Storyteller', 'Developer', 'Designer', 'Educator', 'Gamemaker']
         })
     },[]);
+
   return (
-    <div className="home">
-        <div className="home_bg">
-            <div className="header d__flex align__items__center pxy__30">
-                <div className="logo">
-                    <img src={emblem} className="emblem" alt="" />
+    <div className="home-section">
+        <div className="container">
+            <div className='home_content'>
+                <h1 className="welcome">
+                    WELCOME TO MY HOMEPAGE
+                </h1>
+                <div className='home'>
+                    <img src={home} className='home-img' alt="" />
                 </div>
-                <div className="navigation">
-                    <ul className="navbar d__flex">
-                        <a href="#Home"><li className="nav__items mx__15">Home</li></a>
-                        <a href="#About"><li className="nav__items mx__15">About</li></a>
-                        <a href="#Projects"><li className="nav__items mx__15">Projects</li></a>
-                        <a href="#Contact"><li className="nav__items mx__15">Contact</li></a>
-                    </ul>
+                <h2 className="intro">
+                    Hello there! I'm Alex Ho,
+                </h2>
+                <h3 className="specialties">
+                    <span className="specialty-text" ref={textRef}></span>
+                </h3>                      
+                <div className='goat'>
+                    <img src={goat} className='goat-img' alt="" />
                 </div>
-            </div>
-            <div className="container">
-                <div className='home_content'>
-                    <h1 className="welcome">
-                        WELCOME TO MY HOMEPAGE
-                    </h1>
-                    <img src={house} className='home' alt="" />
-                    <h2 className="intro">
-                        Hello there! I'm Alex Ho,
-                    </h2>
-                    <h3 className="specialties">
-                        <span className="specialty-text" ref={textRef}></span>
-                    </h3>                      
-                    <img src={goat} className='goat' alt="" />
-                    <img src={controller} className='controller' alt="" />
-                    <img src={plant} className='plant' alt="" />
-                    <h2 className="location">
-                        based in the US.
-                        ready to collaborate.
-                    </h2>
+                <div className='controller'>
+                    <img src={controller} className='controller-img' alt="" />
                 </div>
+                <div className='plant'>
+                    <img src={plant} className='plant-img' alt="" />
+                </div>
+                <h2 className="location">
+                    based in the US.
+                    <span className='collab'>ready to collaborate.</span>
+                </h2>
             </div>
         </div>
     </div>

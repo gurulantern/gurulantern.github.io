@@ -1,29 +1,19 @@
-.emblem {
-    width: 200px;
+/*
+div {
+    border: solid;
+    border-color: red;
 }
-
-.navigation {
-    background-color: #00b796;
-    display: flexbox;
-    flex-direction: row;
-}
-
-li.nav__items {
-    color: #ecf791;
-    font-size: 18px;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
+*/
 .container {
-    align-items: center;
+    display: flexbox;
+    justify-content: center;
 }
 
 .home_content {
-    padding: 120px;
+    padding: 20px 120px 120px 120px;
     display: grid;
     grid-auto-rows: minmax(100px, auto);
-    grid-auto-columns: minmax();
+    grid-auto-columns: minmax(117.5px, 500px);
     gap: 10px;
     grid-template-areas:
         "welcome welcome home home"
@@ -45,8 +35,10 @@ li.nav__items {
 }
 
 .home {
-    max-width: 300px;
     grid-area: home;
+    display: flex;
+    background-color: #00b796;
+    justify-content: center;
 }
 
 .intro {
@@ -62,13 +54,15 @@ li.nav__items {
 
 .specialties {
     grid-area: specialty;
+    display: flex;
+    justify-content: center;
     color: #ecf791;
     background-color: #446a87;
     align-items: center;
-    padding: 15px 15px 15px 90px;
+
 }
 
-span {
+.specialty-text {
     font-size: 55px;
     color: #ecf791;
     letter-spacing: 3px;
@@ -76,24 +70,41 @@ span {
 
 .goat {
     grid-area: "goat";
+    display: flex;
+    background-color: #f78076;
+    justify-content: center;
+    align-items: center;
 }
 
 .controller {
     grid-area: "controller";
+    display: flex;
+    background-color: #00b796;
+    justify-content: center;
+    align-items: center;
 }
 
 .plant {
     grid-area: "plant";
+    display: flex;
+    background-color: #446a87;
+    justify-content: center;
+    align-items: center;
 }
 
 .location {
     grid-area: location;
     color: #ecf791;
     background-color: #00b796;
-    padding: 30px 10px 10px 10px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 14px;
     letter-spacing: 2px;
     line-height: 20px;
 }
 
+.collab {
+    font-size: 15px;
+    line-height: 20px;
+    color: #ecf791;
+}
 

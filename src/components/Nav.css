@@ -1,0 +1,16 @@
+.emblem {
+    width: 200px;
+}
+
+.navigation {
+    background-color: #00b796;
+    display: flexbox;
+    flex-direction: row;
+}
+
+li.nav__items {
+    color: #ecf791;
+    font-size: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
