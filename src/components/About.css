@@ -22,8 +22,6 @@ h1.about-head {
     min-width: 250px;
     width: 100%;
     border-radius: 10px;
-    border: solid 10px;
-    border-color: white;
 }
 
 .about-text {
@@ -54,4 +52,23 @@ h1.about-head {
     font-size: 18px;
     line-height: 30px;
     margin-bottom: 15px;
+}
+
+.about-button {
+    display: flex;
+    align-items: center;
+}
+
+.about_btn {
+    font-size: 25px;
+    font-weight: 700;
+    color: #ecf791;
+    background-color: #00b796;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button:hover {
+    color: #446a87;
+    background-color: #ecf791;
 }

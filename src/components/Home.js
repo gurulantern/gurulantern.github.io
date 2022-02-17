@@ -21,7 +21,7 @@ function Home() {
     },[]);
 
   return (
-    <div className="home-section">
+    <div className="home-section" id="Home">
         <div className="container">
             <div className='home_content'>
                 <h1 className="welcome">

@@ -4,7 +4,7 @@ import photo from './img/DSCN7654.jpeg';
 
 function About() {
   return (
-    <div className='about-section'>
+    <div className='about-section' id="About">
         <div className='container'>
             <div className='column1'>
                 <img src={photo} className="photo" alt="" />
@@ -30,7 +30,7 @@ function About() {
                         You can download my resume to see more about my experience! 
                     </p>
                     <div className='about-button'>
-                        <a href='./img/Alex_Resume2022.pdf' download><button className='about_btn' >Download Resume</button></a>
+                        <a href='/Alex_Resume2022.pdf' download><button className='about_btn' >Download Resume</button></a>
                     </div>
                 </div>
             </div>
