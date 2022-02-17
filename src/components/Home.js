@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css';
-import logo from './img/logo.gif';
+import emblem from './img/Water emblem.png';
+import house from './img/house.png';
 
 
 function Home() {
@@ -9,7 +10,7 @@ function Home() {
         <div className="home_bg">
             <div className="header d__flex align__items__center pxy__30">
                 <div className="logo">
-                    <img src={logo} className="gif" alt="" />
+                    <img src={emblem} className="emblem" alt="" />
                 </div>
                 <div className="navigation">
                     <ul className="navbar d__flex">
@@ -22,23 +23,22 @@ function Home() {
             </div>
             <div className="container">
                 <div className='home_content'>
-                    <div className="home_meta">
-                        <h1 className="welcome">
-                            WELCOME TO MY HOMEPAGE
-                        </h1>
-                        <h2 className="intro">
-                            Hello, I'm Alex Ho
-                        </h2>
-                        <ul className="specialties">
-                            <li>Storyteller</li>
-                            <li>Developer</li>
-                            <li>Educator</li>
-                            <li>Gamemaker</li>
-                        </ul>
-                        <h2 className="location">
-                            based in the US.
-                        </h2>
-                    </div>
+                    <h1 className="welcome">
+                        WELCOME TO MY HOMEPAGE
+                    </h1>
+                    <img src={house} className='home' alt="" />
+                    <h2 className="intro">
+                        Hello there! I'm Alex Ho
+                    </h2>
+                    <ul className="specialties">
+                        <li>Storyteller</li>
+                        <li>Developer</li>
+                        <li>Educator</li>
+                        <li>Gamemaker</li>
+                    </ul>
+                    <h2 className="location">
+                        based in the US.
+                    </h2>
                 </div>
             </div>
         </div>
