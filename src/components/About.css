@@ -14,7 +14,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    padding: 80px 60px 40px 60px;
+    padding: 80px 60px 80px 60px;
     /*
     gap: 10px;
     grid-template-columns: minmax();
@@ -66,6 +66,7 @@ h1.about-head {
 .about-head {
     min-width: 300px;
     text-align: start;
+    letter-spacing: 1px;
 }
 
 .about-button {
