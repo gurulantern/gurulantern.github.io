@@ -15,22 +15,22 @@ function About() {
                 </h1>
                 <div className='about__meta'>
                     <p className='about-text'>
-                        I am a self-taught web developer with a background in acting, 
-                        learner-driven education, and customer service.   
+                        I am a self-taught web developer with a background in 
+                        learner-driven education, acting, and customer service.   
                     </p>
                     <p className='about-text'>
                         My interests include reading, playing video games, board games, hiking,
                         and learning new skills. 
                     </p>
                     <p className='about-text'>
-                        Currently, I am learning how to be a better web developer as well
+                        Currently, I am learning about smart contracts as well
                         as discovering more about sustainable agriculture on smaller scales. 
                     </p>
                     <p className='about-text'>
                         You can download my resume to see more about my experience! 
                     </p>
                     <div className='about-button'>
-                        <a href='/Alex_Resume2022.pdf' download><button className='about_btn' >Download Resume</button></a>
+                        <a href='/Alex_Resume2022.pdf' download><button type="button" className='about_btn' >Download Resume</button></a>
                     </div>
                 </div>
             </div>

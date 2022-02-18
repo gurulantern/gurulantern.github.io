@@ -1,13 +1,45 @@
+/*div {
+    border: solid;
+    border-color: red;
+}*/
+
 .about-section {
     background-color: #446a87;
+    display: grid;
+    justify-content: center;
 }
 
 .container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
-    align-items: flex-start;
-    padding: 80px;
+    padding: 80px 60px 40px 60px;
+    /*
+    gap: 10px;
+    grid-template-columns: minmax();
+    grid-template-rows: minmax();
+    grid-template-areas: 
+        "column1 column2";*/
 }
+
+.column1 {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-area: column1;
+    min-width: 420px;
+}
+
+.column2 {
+    max-width: 50%;
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    grid-area: column2;
+}
+
 h1.about-head {
     margin-bottom: 10px;
     font-weight: 700;
@@ -18,7 +50,7 @@ h1.about-head {
 }
 
 .photo {
-    max-width: 360px;
+    max-width: 380px;
     min-width: 250px;
     width: 100%;
     border-radius: 10px;
@@ -26,32 +58,14 @@ h1.about-head {
 
 .about-text {
     color: white;
-}
-.column1 {
-    padding: 20px;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.column2 {
-    padding: 20px;
-    max-width: 50%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 15px;
 }
 
 .about-head {
     min-width: 300px;
     text-align: start;
-}
-
-.about-text {
-    font-size: 18px;
-    line-height: 30px;
-    margin-bottom: 15px;
 }
 
 .about-button {
@@ -65,10 +79,12 @@ h1.about-head {
     color: #ecf791;
     background-color: #00b796;
     padding: 30px;
+    border: solid;
+    border-color: white;
     border-radius: 10px;
+    box-shadow: none;
 }
 
 button:hover {
-    color: #446a87;
-    background-color: #ecf791;
+    background-color: #f78076;
 }
