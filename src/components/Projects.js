@@ -11,7 +11,7 @@ function ProjectTile(props) {
     return (
         <div className={props.class} id="tile">
             <h3 className='project-title'>{props.title}</h3>
-            <img src={props.image} alt='' className='project-image' />
+            <img src={props.image} alt='' clasName='project-image' />
             <a href={props.Url}><button className='project-button'>View</button></a>
         </div>
     )
