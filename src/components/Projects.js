@@ -25,8 +25,7 @@ function Projects() {
                 Projects
             </h1>
             <p className='project-head-meta'>
-                These are a few of the projects that I've been 
-                working on!
+                Take a look at some of my projects
             </p>
         </div>
         <div className='project-container'>
@@ -34,19 +33,19 @@ function Projects() {
                 class="project4"
                 title="Birthday Countdown App"ß
                 image={birthday}
-                Url=""    
+                Url="https://codepen.io/gurulantern/full/yLPKNzY"    
             />
             <ProjectTile 
                 class="project5"
                 title="To-Do List App"
                 image={todo}
-                Url=""    
+                Url="https://codepen.io/gurulantern/full/dyVrLGq"    
             />
             <ProjectTile 
                 class="project6"
                 title="Random Quote Machine"
                 image={quotes}
-                Url=""    
+                Url="https://codepen.io/gurulantern/full/eYGPdbm"    
             />
             <ProjectTile 
                 class="project1"
