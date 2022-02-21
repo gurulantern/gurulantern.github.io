@@ -5,7 +5,7 @@ import photo from './img/DSCN7654.jpeg';
 function About() {
   return (
     <div className='about-section' id="About">
-        <div className='container'>
+        <div className='about-container'>
             <div className='column1'>
                 <img src={photo} className="photo" alt="" />
             </div>

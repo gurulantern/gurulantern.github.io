@@ -9,12 +9,13 @@
     justify-content: center;
 }
 
-.container {
+.about-container {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
     padding: 80px 60px 80px 60px;
+    width: 100%;
     /*
     gap: 10px;
     grid-template-columns: minmax();
@@ -84,6 +85,7 @@ h1.about-head {
     border-color: white;
     border-radius: 10px;
     box-shadow: none;
+    width: 100%;
 }
 
 button:hover {

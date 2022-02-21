@@ -4,14 +4,15 @@ div {
     border-color: red;
 }
 */
-.container {
+.home-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 
 .home_content {
-    padding: 0px 120px 60px 120px;
+    padding: 60px 120px 60px 120px;
     display: grid;
     grid-auto-rows: minmax(100px, auto);
     grid-auto-columns: minmax(117.5px, 214px);

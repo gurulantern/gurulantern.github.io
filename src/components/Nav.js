@@ -4,7 +4,7 @@ import emblem from './img/Water emblem.png';
 
 function Nav () {
     return(
-        <div className="header d__flex align__items__center pxy__30">
+        <div className="header">
             <div className="logo">
                 <img src={emblem} className="emblem" alt="" />
             </div>

@@ -31,7 +31,7 @@ function Projects() {
         <div className='project-container'>
             <ProjectTile 
                 class="project4"
-                title="Birthday Countdown App"ß
+                title="Birthday Countdown App"
                 image={birthday}
                 Url="https://codepen.io/gurulantern/full/yLPKNzY"    
             />
@@ -48,6 +48,12 @@ function Projects() {
                 Url="https://codepen.io/gurulantern/full/eYGPdbm"    
             />
             <ProjectTile 
+                class="project3"
+                title="Coming Soon"
+                image={hggreen}
+                Url=""    
+            />
+            <ProjectTile 
                 class="project1"
                 title="Coming Soon"
                 image={hgblue}
@@ -57,12 +63,6 @@ function Projects() {
                 class="project2"
                 title="Coming Soon"
                 image={hgred}
-                Url=""    
-            />
-            <ProjectTile 
-                class="project3"
-                title="Coming Soon"
-                image={hggreen}
                 Url=""    
             />
         </div>
