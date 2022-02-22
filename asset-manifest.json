@@ -1,16 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.d6101ed2.css",
-    "main.js": "/static/js/main.f4b579cc.js",
+    "main.css": "/static/css/main.8f390e2d.css",
+    "main.js": "/static/js/main.1dae3769.js",
     "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/DSCN7654.jpeg": "/static/media/DSCN7654.bbddb2ce8d330ececc69.jpeg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/goat.png": "/static/media/goat.1f6030b8d3704f50e156.png",
+    "static/media/controller.png": "/static/media/controller.0cb21bff30d62d4ba9b8.png",
+    "static/media/plant.png": "/static/media/plant.b6e34f70ec70e7d1d9a3.png",
+    "static/media/home.png": "/static/media/home.c4dc81abc1dbfb6c4d2c.png",
     "index.html": "/index.html",
-    "main.d6101ed2.css.map": "/static/css/main.d6101ed2.css.map",
-    "main.f4b579cc.js.map": "/static/js/main.f4b579cc.js.map",
+    "main.8f390e2d.css.map": "/static/css/main.8f390e2d.css.map",
+    "main.1dae3769.js.map": "/static/js/main.1dae3769.js.map",
     "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d6101ed2.css",
-    "static/js/main.f4b579cc.js"
+    "static/css/main.8f390e2d.css",
+    "static/js/main.1dae3769.js"
   ]
 }
